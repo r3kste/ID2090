@@ -86,7 +86,7 @@ Github may have limited rendering of these notebooks. You can click on the icon 
 
 ## Examples and solutions
 
-Look at the contributions by top performing students of this course [abhigyan](abhigyan/README.md), [archish](archish/README.md) and [Raghvani](raghwani) [Dhaval](Dhaval) for examples and solutions that could help you learn more about the concepts of this course.
+Look at the contributions by top performing students of this course [abhigyan](folks/abhigyan), [archish](folks/archish) and [dhaval raghvani](folks/dhawal%20raghwani) for examples and solutions that could help you learn more about the concepts of this course.
 
 ## Further learning
 
