@@ -1,0 +1,7 @@
+Perhaps 123456781234 is an aadhar number. 
+Aadhar numbers have 12 digits.
+My landline number is 4422574770. 
+Most phone numbers in India are 10 digit.
+Pincode of IIT Madras is 600036 which is unique for it within Chennai.
+Roll numbers in IITM have the pattern like MM22B001.
+URLs have atleast one period in the string like github.com.

@@ -1,0 +1,4 @@
+L1 linux is a free, opensource, secure and reliable os
+L5 slides: libreoffice impress in place of microsoft powerpoint
+L9 symbolic math: sympy, sagemath in place of maple, mathematica
+L13 screen recording: obs in place of camtasia
