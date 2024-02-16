@@ -47,7 +47,7 @@ achieve the exact task as above example.
 
 ## An example
 
-Download the script [myscript.awk](../scripts/myscript.awk) and run it on the RollList.csv and see the output.
+Download the script [myscript.awk](../scripts/examples/awk/myscript.awk) and run it on the RollList.csv and see the output.
 
 ## Homework
 
