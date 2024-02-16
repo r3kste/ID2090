@@ -3,9 +3,10 @@
 # read -p "Enter the number of terms: " n
 n=$1
 m=1000000007
+n=$((n % 2000000016))
 # Fibonacci function
 fibonacci() {
-    local n=$1
+    local n=$n
     n=$((n - 1))
     local a=1
     local b=1
@@ -24,9 +25,8 @@ fibonacci() {
 }
 
 matrix_exponentiation() {
-    local n=$1
-    local m=$2
-    matx=("${@:3}")
+    local n=$n
+    local matx=(1 1 1 0)
     local result=(1 0 0 1)
 
     while [ $n -gt 0 ]; do
@@ -43,7 +43,7 @@ matrix_exponentiation() {
             )
             result=(${new_result[@]})
         fi
-        n=$(echo "$n / 2" | bc)
+        n=$((n / 2))
         matx=(
             $(((a * a + b * c) % m))
             $(((a * b + b * d) % m))
@@ -52,16 +52,12 @@ matrix_exponentiation() {
         )
     done
 
-    echo "${result[@]}"
+    echo "${result[1]}"
 }
 
 fibonacci2() {
-    matrix=(1 1 1 0)
-    n=$1
-    m=1000000007
-    matrix_result=($(matrix_exponentiation $n $m "${matrix[@]}"))
-    ans=${matrix_result[1]}
+    ans=($(matrix_exponentiation))
     echo $ans
 }
 
-fibonacci2 $n
+fibonacci2
