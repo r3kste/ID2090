@@ -113,15 +113,19 @@ fibonacci() {
     local n=$1
     local one=$f1
     local two=$f2
-
-    for ((i = 3; i <= n; i++)); do
-        local three=$(echo "scale=$scale; $two * $b + $one * $c" | bc)
-        local three=$(echo "scale=$scale; $three / $a" | bc)
-        one=$two
-        two=$three
-    done
-
-    echo $two
+    if [ $n -eq 1 ]; then
+        echo $f1
+    elif [ $n -eq 2 ]; then
+        echo $f2
+    else
+        for ((i = 3; i <= n; i++)); do
+            local three=$(echo "scale=$scale; $two * $b + $one * $c" | bc)
+            local three=$(echo "scale=$scale; $three / $a" | bc)
+            one=$two
+            two=$three
+        done
+        echo $two
+    fi
 }
 
 testcases="$2"
