@@ -1,0 +1,52 @@
+!!python/object:sympy.matrices.dense.MutableDenseMatrix
+_rep: !!python/object/new:sympy.polys.matrices.domainmatrix.DomainMatrix
+  args:
+  - 0: &id002
+      0: !!python/object/apply:gmpy2.gmpy2.from_binary
+      - !!binary |
+        AQEB
+      1: !!python/object/apply:gmpy2.gmpy2.from_binary
+      - !!binary |
+        AQEB
+      2: !!python/object/apply:gmpy2.gmpy2.from_binary
+      - !!binary |
+        AQEB
+    1: &id003
+      0: !!python/object/apply:gmpy2.gmpy2.from_binary
+      - !!binary |
+        AQEB
+      1: !!python/object/apply:gmpy2.gmpy2.from_binary
+      - !!binary |
+        AQEB
+      2: !!python/object/apply:gmpy2.gmpy2.from_binary
+      - !!binary |
+        AQEB
+    2: &id004
+      0: !!python/object/apply:gmpy2.gmpy2.from_binary
+      - !!binary |
+        AQEB
+      1: !!python/object/apply:gmpy2.gmpy2.from_binary
+      - !!binary |
+        AQEB
+      2: !!python/object/apply:gmpy2.gmpy2.from_binary
+      - !!binary |
+        AQEB
+  - &id005 !!python/tuple
+    - 3
+    - 3
+  - &id001 !!python/object:sympy.polys.domains.integerring.IntegerRing {}
+  state:
+    domain: *id001
+    rep: !!python/object/new:sympy.polys.matrices.sdm.SDM
+      dictitems:
+        0: *id002
+        1: *id003
+        2: *id004
+      state:
+        cols: 3
+        domain: *id001
+        rows: 3
+        shape: *id005
+    shape: *id005
+cols: 3
+rows: 3

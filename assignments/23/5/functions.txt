@@ -1,0 +1,2 @@
+\frac{\sqrt{2} e^{- 0.5 \left(\frac{x}{2} - \frac{1}{2}\right)^{2}}}{8 \sqrt{\pi}}
+\frac{\sqrt{2} e^{- 0.5 \left(\frac{x}{2} - \frac{5}{2}\right)^{2}}}{8 \sqrt{\pi}}
